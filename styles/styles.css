@@ -12,11 +12,14 @@
     border: 1px solid orangered;
 }
 
+caption {
+    color: var(--gray);
+}
+
 .navbar-light .navbar-nav .nav-link {
     display: inline;
     transition: 0.3s ease;
     border-bottom: 2px solid transparent;
-
 }
 
 .navbar-nav .nav-link.active,
