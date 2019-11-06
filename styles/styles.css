@@ -7,11 +7,6 @@
 	background-color: var(--white);
 }
 
-/* testing only */
-.border {
-	border: 1px solid orangered;
-}
-
 caption {
 	color: var(--gray);
 }
