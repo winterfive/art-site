@@ -19,27 +19,51 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-light d-print">
-        <a class="navbar-brand" href="https://www.leegainer.com"
-          ><strong>Lee Gainer</strong></a
-        >
+        <a class="navbar-brand" href="#"><strong>Lee Gainer</strong></a>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link ml-auto mr-2" href="#">paintings</a>
-            <a class="nav-item nav-link ml-auto mr-2" href="#">drawings</a>
-            <a class="nav-item nav-link ml-auto mr-2" href="#">info</a>
-            <a class="nav-item nav-link ml-auto mr-2" href="#">contact</a>
-          </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown mb-3 ml-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                paintings
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item mb-3" href="#">2014</a>
+                <a class="dropdown-item mb-3" href="#">2013</a>
+                <a class="dropdown-item mb-3" href="#">2012</a>
+                <a class="dropdown-item mb-1" href="#">2011</a>
+              </div>
+            </li>
+            <li class="nav-item mb-3 ml-3">
+              <a class="nav-link" href="#">drawings</a>
+            </li>
+
+            <li class="nav-item mb-3 ml-3">
+              <a class="nav-link" href="#">info</a>
+            </li>
+            <li class="nav-item mb-1 ml-3">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
