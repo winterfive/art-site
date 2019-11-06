@@ -26,3 +26,15 @@
 button {
 	outline: none !important;
 }
+
+#hideAll {
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-color: red;
+	z-index: 99;
+	/* Higher than anything else in the document */
+
+}
