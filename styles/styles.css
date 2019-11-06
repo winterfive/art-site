@@ -7,27 +7,16 @@
 	background-color: var(--white);
 }
 
-caption {
-	color: var(--gray);
-}
-
-.navbar-light .navbar-nav .nav-link {
-	display: inline;
-	transition: 0.3s ease;
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link:hover {
+.nav-link.active,
+.nav-link:hover,
+.dropdown-item:active,
+.dropdown-item:hover {
 	background-color: var(--gray);
 }
 
-.navbar-light .navbar-nav .nav-link .dropdown-menu .dropdown-item {
-	display: inline;
-}
-
-.navbar-nav .dropdown-item.active,
-.navbar-nav .dropdown-item:hover {
-	background-color: var(--gray);
+.nav-link,
+.dropdown-item {
+	transition: 0.5s ease;
 }
 
 .footer-text {
