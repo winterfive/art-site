@@ -28,6 +28,6 @@ caption {
   border-bottom: 2px solid var(--gray);
 }
 
-.footer {
-  background-color: var(--copyright);
+.footer-text {
+  font-size: 0.8em;
 }
