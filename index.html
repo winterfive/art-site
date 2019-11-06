@@ -32,9 +32,15 @@
     />
     <link rel="stylesheet" href="../styles/styles.css" />
     <title>Lee Gainer</title>
+    <script type="text/javascript">
+      document.getElementByClass(".hideAll").style.display = "block"
+    </script>
   </head>
 
   <body>
+    <!-- blocker div -->
+    <div class="hideAll">&nbsp;</div>
+
     <header>
       <nav class="navbar navbar-expand-md navbar-light d-print">
         <a class="navbar-brand" href="#"><strong>Lee Gainer</strong></a>
@@ -112,8 +118,6 @@
       </div>
     </nav>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -129,5 +133,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+
+    <script src="hide.js"></script>
   </body>
 </html>
