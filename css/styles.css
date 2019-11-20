@@ -23,10 +23,6 @@
 	font-size: 0.8em;
 }
 
-button {
-	outline: none !important;
-}
-
 body {
 	opacity: 1;
 	transition: 1s opacity;
