@@ -1,10 +1,7 @@
 :root {
 	--white: #fff;
 	--gray: #eeeeee;
-}
-
-.navbar-brand:hover {
-	background-color: var(--white);
+	--dropdown-anim: 0.3s;
 }
 
 .nav-link.active,
@@ -14,8 +11,7 @@
 	background-color: var(--gray);
 }
 
-.nav-link,
-.dropdown-item {
+.nav-link {
 	transition: 0.5s ease;
 }
 
@@ -35,4 +31,23 @@ body.fade {
 
 .hero {
 	max-height: 1000px;
+}
+
+/* dropdown animation */
+.dropdown .dropdown-menu {
+	-webkit-transition: all var(--dropdown-anim);
+	-moz-transition: all var(--dropdown-anim);
+	-ms-transition: all var(--dropdown-anim);
+	-o-transition: all var(--dropdown-anim);
+	transition: all var(--dropdown-anim);
+
+	max-height: 0;
+	display: block;
+	overflow: hidden;
+	opacity: 0;
+}
+
+.dropdown.show .dropdown-menu {
+	max-height: 200px;
+	opacity: 1;
 }
